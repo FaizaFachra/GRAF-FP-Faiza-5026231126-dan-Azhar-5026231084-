@@ -58,3 +58,19 @@ Mendemonstrasikan kemampuan LLM membaca teks berita yang tidak terstruktur, mela
 
 ## 🤖 Deklarasi Penggunaan AI
 Penyusunan kode dalam proyek ini dibantu oleh *Google Gemini* melalui antarmuka chat untuk merancang struktur *Graph Ingestion* (Cypher), *debugging* isu kompatibilitas pada *library* LangChain (seperti penanganan modul *community* dan deteksi model AI otomatis), serta penulisan draf awal dokumentasi `README.md` ini.
+
+
+## 📸 Lampiran Bukti Eksekusi (Screenshots)
+
+### A. Koneksi Database & Ingesti Data
+![Koneksi DB](ss_a_koneksi.png)
+
+### B. Visualisasi Knowledge Graph
+![Graph Neo4j](ss_b_graph.png)
+
+### C. Graph Analytics & Machine Learning
+![GDS Output](ss_c_gds.png)
+
+### D. LLM Text-to-Cypher & Graph Builder
+![LLM Demo](ss_d_llm.png)
+![LLM Demo](ss_d_llm 2.png)

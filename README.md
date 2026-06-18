@@ -70,3 +70,6 @@ Penyusunan kode dalam proyek ini dibantu oleh *Google Gemini* melalui antarmuka 
 
 ### C. Graph Analytics & Machine Learning
 ![GDS Output](ss_c_gds.png)
+
+### D. LLM Text-to-Cypher & Graph Builder
+![LLM Demo](ss_d_llm.png)

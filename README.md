@@ -45,14 +45,15 @@ Mendemonstrasikan kemampuan LLM membaca teks berita yang tidak terstruktur, mela
 
 ---
 
-## Cara Menjalankan Kode (How to Run)
+## Instalasi, Konfigurasi & Cara Menjalankan (How to Run)
 
-1. **Siapkan Database:** Buka [Neo4j Sandbox](https://sandbox.neo4j.com/), buat *Blank Sandbox*, lalu salin IP (Bolt URL) dan Passwordnya.
-2. **Siapkan API Key:** Dapatkan kredensial *API Key* melalui Google AI Studio.
-3. **Eksekusi di Colab:** * Buka file `.ipynb` yang terlampir di repositori ini melalui Google Colab.
+1. **Instalasi & Persiapan Database:** Anda tidak perlu menginstal database secara lokal. Cukup buka [Neo4j Sandbox](https://sandbox.neo4j.com/), buat *Blank Sandbox*, lalu catat IP (Bolt URL) dan Passwordnya.
+2. **Konfigurasi API Key:** Dapatkan kredensial *API Key* melalui Google AI Studio secara gratis untuk mengakses LLM Gemini.
+3. **Cara Eksekusi (Run) di Colab:** * Buka file `.ipynb` yang terlampir di repositori ini melalui Google Colab.
+   * Instalasi library (`langchain`, `neo4j`, dll) sudah terintegrasi di dalam sel (cell) pertama pada kode.
    * Unggah file dataset CSV ke *environment* Colab.
-   * Ubah variabel `URI`, `PASSWORD`, dan `GOOGLE_API_KEY` sesuai kredensial Anda.
-   * Jalankan sel kode secara berurutan (Tahap 1 hingga Tahap 4).
+   * Konfigurasikan variabel `URI`, `PASSWORD`, dan `GOOGLE_API_KEY` di dalam kode sesuai kredensial Anda.
+   * Jalankan (*Run*) sel kode secara berurutan dari atas ke bawah (Tahap 1 hingga Tahap 4).
 
 ---
 
